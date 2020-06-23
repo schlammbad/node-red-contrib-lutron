@@ -1,7 +1,7 @@
 {
-  "name": "node-red-contrib-lutron",
+  "name": "node-red-contrib-lutron-homeworks",
   "version": "1.0.3",
-  "description": "A node for communicating with Lutron Caseta Pro Hub",
+  "description": "A node for communicating with Lutron HomeWorks",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,18 +15,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:sushilks/node-red-contrib-lutron.git"
+    "url": "git@github.com:schlammbad/node-red-contrib-lutron.git"
   },
   "keywords": [
     "lutron",
-    "caseta",
+    "homeworks",
     "dimmer",
     "light",
     "switch",
     "node-red",
     "node"
   ],
-  "author": "Sushil Singh <sushilks@gmail.com>",
+  "author": "schlammbad <schlammbad@hotmail.com>",
   "license": "Apache 2.0",
   "dependencies": {
     "events": "^3.0.0",
@@ -34,8 +34,8 @@
   },
   "maintainers": [
     {
-      "name": "Sushil Singh",
-      "email": "sushilks@gmail.com"
+      "name": "schlammbad",
+      "email": "schlammbad@hotmail.com"
     }
   ]
 }
