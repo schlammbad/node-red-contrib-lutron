@@ -17,10 +17,10 @@ module.exports = function (RED) {
         var params = {
             host: this.lutronLoc,
             port: this.port,
-            shellPrompt: 'GNET>',
+            shellPrompt: 'QNET>',
             debug: true,
             username: 'lutron',
-            password: 'integration',
+            password: 'lutron',
             timeout: parseInt(config.timeout) || 45000
         };
         this.sendLutronCommand = function (devId, val) {
